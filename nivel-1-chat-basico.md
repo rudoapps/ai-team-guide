@@ -408,11 +408,13 @@ Formato:
 ## ✅ Resumen: Dominas Nivel 1 Cuando...
 
 ### Entiendes:
+
 - ✅ Qué hace un buen prompt: contexto + tarea + formato
 - ✅ El ciclo: prompt → código → probar → refinar
 - ✅ La IA es una herramienta, no una fuente de verdad absoluta
 
 ### Puedes:
+
 - ✅ Generar funciones/código básico útil
 - ✅ Explicar código que no entiendes
 - ✅ Debuggear con ayuda de IA
@@ -420,6 +422,7 @@ Formato:
 - ✅ Detectar código incorrecto/inseguro
 
 ### Evitas:
+
 - ✅ Prompts vagos
 - ✅ Copiar sin entender
 - ✅ Confiar ciegamente
@@ -430,12 +433,14 @@ Formato:
 ## 📊 Limitaciones de Este Nivel
 
 ### Lo que PUEDES hacer:
+
 - ✅ Generar código simple (funciones, clases, queries)
 - ✅ Debug de problemas puntuales
 - ✅ Explicaciones de código
 - ✅ Conversiones de sintaxis
 
 ### Lo que NO puedes hacer (todavía):
+
 - ❌ Conversaciones largas manteniendo contexto
 - ❌ Refactorizar proyectos completos
 - ❌ Trabajar con múltiples archivos simultáneamente

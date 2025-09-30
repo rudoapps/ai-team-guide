@@ -191,18 +191,21 @@ No hay atajos. La práctica es esencial.
 Al completar esta guía serás capaz de:
 
 ### Nivel 1-2 (Básico)
+
 ✅ Escribir prompts que generen código útil
 ✅ Debuggear con ayuda de IA
 ✅ Explicar código complejo
 ✅ Mantener conversaciones efectivas
 
 ### Nivel 3-4 (Intermedio)
+
 ✅ Usar autocompletado inteligente en tu editor
 ✅ Integrar IA en tu workflow diario
 ✅ Automatizar tareas repetitivas
 ✅ Code review asistido por IA
 
 ### Nivel 5-6 (Avanzado)
+
 ✅ Configurar agentes para tareas complejas
 ✅ Crear herramientas personalizadas con MCP
 ✅ Automatización avanzada
