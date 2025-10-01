@@ -71,8 +71,6 @@ Lo básico que todos deben dominar antes de avanzar.
 - Detectar errores comunes de la IA
 - Reglas de seguridad al copiar/pegar
 
-**Tiempo:** 2-3 días de práctica
-
 **Dominas este nivel cuando:**
 - ✅ Generas código útil con prompts claros
 - ✅ Detectas código incorrecto o inseguro
@@ -81,16 +79,22 @@ Lo básico que todos deben dominar antes de avanzar.
 
 ---
 
-#### 🚧 Nivel 2: Chat Avanzado - **Próximamente**
+#### ✅ [Nivel 2: Chat Avanzado](./nivel-2-chat-avanzado.md) - **Disponible**
 Conversaciones largas y técnicas avanzadas de prompting.
 
 **Aprenderás:**
 - Mantener contexto en conversaciones largas
-- Chain-of-thought prompting
-- Few-shot learning
-- Role prompting
+- Técnicas avanzadas: Chain-of-Thought, Few-Shot, Role Prompting
 - Refactoring de proyectos completos
-- Trabajar con múltiples archivos
+- Debugging complejo multi-capa
+- Diseño de arquitectura colaborativo
+- Code review de PRs completos
+
+**Dominas este nivel cuando:**
+- ✅ Mantienes conversaciones largas sin perder contexto
+- ✅ Usas técnicas avanzadas según el caso
+- ✅ Refactorizas proyectos completos con IA
+- ✅ Haces code reviews contextuales
 
 ---
 
