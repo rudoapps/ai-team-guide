@@ -311,9 +311,9 @@ Al completar esta guía serás capaz de:
 
 | Sección | Estado | Última actualización |
 |---------|--------|---------------------|
-| Glosario | ✅ Completo | 2025-09-30 |
-| Nivel 1 | ✅ Completo | 2025-09-30 |
-| Nivel 2 | 🚧 En proceso | - |
+| Glosario | ✅ Completo | 2025-10-01 |
+| Nivel 1 | ✅ Completo | 2025-10-01 |
+| Nivel 2 | ✅ Completo | 2025-10-01 |
 | Nivel 3 | 📝 Planeado | - |
 | Nivel 4 | 📝 Planeado | - |
 | Nivel 5 | 📝 Planeado | - |
