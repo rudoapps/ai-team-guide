@@ -1,6 +1,6 @@
 # Guía de IA para el Equipo RUDO
 
-Guía práctica para todo el equipo RUDO sobre cómo usar IA efectivamente en el trabajo diario.
+Guía completa para desarrolladores, diseñadores y gestión sobre cómo usar IA efectivamente en el trabajo diario.
 
 ---
 
@@ -12,284 +12,150 @@ La IA es una herramienta poderosa, pero la mayoría la usa mal:
 - Frustración cuando no funciona
 - Desconocimiento de herramientas más allá de ChatGPT
 
-**Esta guía te lleva desde cero hasta uso avanzado**, paso a paso, sin asumir conocimientos previos.
+**Esta guía te lleva desde cero hasta uso avanzado**, combinando teoría sólida con práctica efectiva.
 
 ---
 
-## 📈 La Evolución del Uso de IA
+## 📚 Estructura de la Guía
 
-La guía está estructurada como una progresión natural:
+La guía está organizada en tres pilares complementarios:
 
+### 1️⃣ **[Conceptos](./conceptos/)** - Fundamentos Teóricos
+Entiende **cómo funciona** la IA y **por qué** se comporta como lo hace.
+
+**11 conceptos esenciales:**
+- [01. LLM (Large Language Model)](./conceptos/01-llm.md) - El "cerebro" detrás de la IA
+- [02. Modelo](./conceptos/02-modelo.md) - Elegir la herramienta correcta
+- [03. Token](./conceptos/03-token.md) - Costes y límites
+- [04. Contexto](./conceptos/04-contexto.md) - Información de fondo efectiva
+- [05. Prompt](./conceptos/05-prompt.md) - Escribir instrucciones efectivas
+- [06. Temperatura](./conceptos/06-temperatura.md) - Controlar creatividad
+- [07. Herramienta](./conceptos/07-herramienta.md) - Capacidades extendidas
+- [08. Agente](./conceptos/08-agente.md) - IA autónoma
+- [09. Alucinación](./conceptos/09-alucinacion.md) - Detectar errores (CRÍTICO)
+- [10. Fine-tuning](./conceptos/10-fine-tuning.md) - IA personalizada
+- [11. Entrenamiento](./conceptos/11-entrenamiento.md) - Cómo aprende la IA
+
+### 2️⃣ **[Guía Práctica](./guia-practica/)** - Aplicación Real
+Aplica los conceptos en **tu trabajo diario** con técnicas progresivas.
+
+**Niveles disponibles:**
+- **[Nivel 1: Chat Básico](./guia-practica/nivel-1-chat-basico.md)** ✅ *Disponible*
+  - Prompts efectivos
+  - Ciclo: prompt → código → prueba → refina
+  - Detectar errores comunes
+  - Seguridad al copiar/pegar
+
+- **[Nivel 2: Chat Avanzado](./guia-practica/nivel-2-chat-avanzado.md)** ✅ *Disponible*
+  - Conversaciones largas con contexto
+  - Técnicas: Chain-of-Thought, Few-Shot, Role Prompting
+  - Refactoring de proyectos completos
+  - Code review colaborativo
+
+### 3️⃣ **[Cheat Sheet](./cheat-sheet.md)** - Referencia Rápida
+Consulta rápida de conceptos, técnicas y mejores prácticas.
+
+---
+
+## 🚀 Tres Rutas de Aprendizaje
+
+Elige según tu estilo de aprendizaje:
+
+### 📖 Ruta 1: Conceptos Primero (Recomendado para Principiantes)
 ```
-Nivel 1: Chat Básico
-         ↓
-    Copiar/pegar código de ChatGPT/Claude de forma efectiva
-
-Nivel 2: Chat Avanzado
-         ↓
-    Conversaciones largas manteniendo contexto
-
-Nivel 3: IA en el Editor
-         ↓
-    Autocompletado mientras codeas (Copilot, Cursor)
-
-Nivel 4: IA en tu Workflow
-         ↓
-    Integración completa en tu día a día
-
-Nivel 5: Agentes
-         ↓
-    IA que ejecuta tareas completas autónomamente
-
-Nivel 6: MCP
-         ↓
-    Herramientas personalizadas y automatización avanzada
+1. Lee Conceptos 01-05 (fundamentos)
+2. Practica con Nivel 1
+3. Lee Conceptos 06-09 (avanzado)
+4. Practica con Nivel 2
+5. Lee Conceptos 10-11 (especializado)
 ```
 
-**Cada nivel construye sobre el anterior.** No saltes niveles.
+**Para quién:** Quieres entender **por qué** antes de **cómo**
+**Tiempo:** 1-2 semanas de aprendizaje estructurado
+
+### 🏃 Ruta 2: Práctica Primero (Para Aprender Haciendo)
+```
+1. Empieza con Nivel 1
+2. Consulta Conceptos cuando tengas dudas
+3. Avanza a Nivel 2
+4. Profundiza en Conceptos según necesites
+5. Guarda Cheat Sheet para referencia
+```
+
+**Para quién:** Prefieres aprender experimentando
+**Tiempo:** 1 semana de práctica intensiva
+
+### ⚡ Ruta 3: Referencia Rápida (Para Usuarios Con Experiencia)
+```
+1. Lee el Cheat Sheet completo
+2. Consulta Conceptos específicos según necesites
+3. Usa Guía Práctica como referencia
+```
+
+**Para quién:** Ya usas IA, quieres optimizar tu uso
+**Tiempo:** 1-2 días de revisión
 
 ---
 
-## 📚 Contenido de la Guía
+## 🎓 Dominio por Nivel
 
-### 🌱 Fundamentos
-- **[Glosario](./glosario.md)** - Términos esenciales que debes conocer
-  - IA, LLM, Prompt, Contexto, Tokens
-  - Asistente vs Copiloto vs Agente
-  - MCP, RAG, Fine-tuning
-  - Temperatura, Iteración
+### ✅ Dominas Nivel 1 Cuando:
+- Generas código útil con prompts claros
+- Detectas código incorrecto o inseguro
+- Iteras hasta obtener lo que necesitas
+- Entiendes el código antes de usarlo
 
-### 📖 Niveles de Uso
-
-#### ✅ [Nivel 1: Chat Básico](./nivel-1-chat-basico.md) - **Disponible**
-Lo básico que todos deben dominar antes de avanzar.
-
-**Aprenderás:**
-- Escribir prompts efectivos (contexto + tarea + formato)
-- El ciclo: prompt → código → prueba → refina
-- Casos de uso: generar código, debugging, explicar código
-- Detectar errores comunes de la IA
-- Reglas de seguridad al copiar/pegar
-
-**Dominas este nivel cuando:**
-- ✅ Generas código útil con prompts claros
-- ✅ Detectas código incorrecto o inseguro
-- ✅ Iteras hasta obtener lo que necesitas
-- ✅ Entiendes el código antes de usarlo
-
----
-
-#### ✅ [Nivel 2: Chat Avanzado](./nivel-2-chat-avanzado.md) - **Disponible**
-Conversaciones largas y técnicas avanzadas de prompting.
-
-**Aprenderás:**
-- Mantener contexto en conversaciones largas
-- Técnicas avanzadas: Chain-of-Thought, Few-Shot, Role Prompting
-- Refactoring de proyectos completos
-- Debugging complejo multi-capa
-- Diseño de arquitectura colaborativo
-- Code review de PRs completos
-
-**Dominas este nivel cuando:**
-- ✅ Mantienes conversaciones largas sin perder contexto
-- ✅ Usas técnicas avanzadas según el caso
-- ✅ Refactorizas proyectos completos con IA
-- ✅ Haces code reviews contextuales
-
----
-
-#### 🚧 Nivel 3: IA en tu Editor - **Próximamente**
-Autocompletado inteligente mientras codeas.
-
-**Aprenderás:**
-- GitHub Copilot, Cursor, Codeium
-- Configuración por IDE (Xcode, Android Studio, VS Code)
-- Shortcuts y mejores prácticas
-- Cuándo aceptar/rechazar sugerencias
-
----
-
-#### 🚧 Nivel 4: IA en tu Workflow - **Próximamente**
-Integración completa en tu flujo de trabajo diario.
-
-**Aprenderás:**
-- CLIs de IA (Claude Code, Warp)
-- Automatización de tareas repetitivas
-- Code review con IA
-- Generación de documentación
-
----
-
-#### 🚧 Nivel 5: Agentes - **Próximamente**
-IA que ejecuta tareas completas autónomamente.
-
-**Aprenderás:**
-- Qué es un agente y cómo funciona
-- Casos de uso (refactoring, testing, migrations)
-- Supervisión y control
-- Limitaciones y riesgos
-
----
-
-#### 🚧 Nivel 6: MCP - **Próximamente**
-Personalización avanzada y herramientas custom.
-
-**Aprenderás:**
-- Qué es Model Context Protocol
-- Crear herramientas personalizadas
-- Integrar con tu infraestructura
-- Automatización avanzada
-
----
-
-## 🚀 Cómo Usar Esta Guía
-
-### 1. Empieza por el Glosario
-Lee el [Glosario](./glosario.md) primero (5-10 minutos). Necesitas entender la terminología básica.
-
-### 2. Sigue el Orden Secuencial
-No saltes niveles. Cada uno construye sobre el anterior:
-- Si eres nuevo en IA → Empieza en **Nivel 1**
-- Si ya usas ChatGPT básicamente → Empieza en **Nivel 1** igual (hay técnicas que probablemente no conoces)
-- Si usas Copilot diariamente → Revisa Nivel 1-2, luego ve a **Nivel 3**
-
-### 3. Practica Cada Nivel
-No avances hasta sentirte cómodo con el nivel actual. Indicadores:
-- **Nivel 1:** 2-3 días usando chat de IA
-- **Nivel 2:** 1 semana de conversaciones avanzadas
-- **Nivel 3:** 1 semana con IA en tu editor
-- **Nivel 4-6:** 2-4 semanas cada uno
-
-### 4. Adapta a Tu Rol
-La guía cubre principios generales aplicables a todo el equipo RUDO:
-- **Desarrolladores:** iOS, Android, Flutter, Python, PHP
-- **Diseñadores:** Figma, design systems, UI/UX
-- **Gestión:** Planificación, documentación, análisis
+### ✅ Dominas Nivel 2 Cuando:
+- Mantienes conversaciones largas sin perder contexto
+- Usas técnicas avanzadas según el caso
+- Refactorizas proyectos completos con IA
+- Haces code reviews contextuales
 
 ---
 
 ## 👥 Para Quién es Esta Guía
 
-**Para todo el equipo RUDO:** desarrolladores, diseñadores y gestión.
+**Para todo el equipo RUDO:**
+- **Desarrolladores** (iOS, Android, Flutter, Backend, Frontend)
+- **Diseñadores** (UI/UX, Design Systems, Figma)
+- **Gestión** (Planificación, Documentación, Análisis)
 
-Los principios de uso efectivo de IA aplican independientemente de tu rol. La guía incluye ejemplos y casos de uso relevantes para cada área.
-
----
-
-## ⏱️ Tiempo de Dominio
-
-**Por nivel:**
-- Nivel 1-2: 1 semana
-- Nivel 3: 1-2 semanas
-- Nivel 4: 2 semanas
-- Nivel 5-6: 3-4 semanas
-
-**Total para dominio completo:** 6-10 semanas de uso consistente
-
-No hay atajos. La práctica es esencial.
+Los principios de uso efectivo de IA aplican independientemente de tu rol.
 
 ---
 
-## 🎓 Objetivos de Aprendizaje
-
-Al completar esta guía serás capaz de:
-
-### Nivel 1-2 (Básico)
-
-- ✅ Escribir prompts que generen código útil
-- ✅ Debuggear con ayuda de IA
-- ✅ Explicar código complejo
-- ✅ Mantener conversaciones efectivas
-
-### Nivel 3-4 (Intermedio)
-
-- ✅ Usar autocompletado inteligente en tu editor
-- ✅ Integrar IA en tu workflow diario
-- ✅ Automatizar tareas repetitivas
-- ✅ Code review asistido por IA
-
-### Nivel 5-6 (Avanzado)
-
-- ✅ Configurar agentes para tareas complejas
-- ✅ Crear herramientas personalizadas con MCP
-- ✅ Automatización avanzada
-- ✅ Elegir la herramienta correcta para cada caso
-
----
-
-## 🛠️ Herramientas que Cubriremos
+## 🛠️ Herramientas Cubiertas
 
 ### Chat (Nivel 1-2)
-- ChatGPT (OpenAI)
-- Claude (Anthropic)
-- Gemini (Google)
+- **ChatGPT** (OpenAI) - Propósito general
+- **Claude** (Anthropic) - Análisis profundo, contexto largo
+- **Gemini** (Google) - Integración Google Workspace
 
-### Editores (Nivel 3)
-- GitHub Copilot
-- Cursor
-- Codeium
-- Integración con Xcode, Android Studio, VS Code
-
-### CLI y Workflow (Nivel 4-5)
-- Claude Code
-- Warp Terminal
-- GitHub CLI con IA
-
-### Avanzado (Nivel 6)
-- MCP (Model Context Protocol)
-- APIs de IA
-- Automatización custom
-
----
-
-## 📖 Filosofía de la Guía
-
-### Principios:
-
-**1. Explicaciones claras, sin relleno**
-- Directo al grano
-- Sin ejercicios innecesarios
-- Ejemplos prácticos reales
-
-**2. Enfoque progresivo**
-- De lo simple a lo complejo
-- Cada nivel tiene prerrequisitos claros
-- Build up gradual de habilidades
-
-**3. Resúmenes accionables**
-- Cada nivel termina con bulletpoints
-- Checklist de dominio
-- Próximos pasos claros
-
-**4. Universal**
-- Principios aplicables a cualquier rol
-- No ejemplos redundantes por tecnología
-- Adaptas a tu contexto
-
-**5. Práctica sobre teoría**
-- Enfocado en casos de uso reales
-- Menos conceptos, más aplicación
-- Tips del mundo real
+### Agentes y Herramientas Especializadas
+- **GitHub Copilot** - Autocompletado en IDE
+- **Claude Code** - Agente para desarrollo
+- **Cursor** - Editor con IA integrada
 
 ---
 
 ## ⚠️ Advertencias Importantes
 
-### Sobre Seguridad
-🚨 **Nunca copies código sin revisar:**
+### Sobre Seguridad 🚨
+**Nunca copies código sin revisar:**
 - SQL injection
 - XSS vulnerabilities
 - Eval/exec de input sin sanitizar
 - Credenciales hardcodeadas
+- APIs inseguras
 
-### Sobre Propiedad Intelectual
-⚖️ **Ten cuidado con:**
-- Código propietario pegado en chats públicos
+### Sobre Propiedad Intelectual ⚖️
+**Ten cuidado con:**
+- Código propietario en chats públicos
 - Datos sensibles en prompts
-- APIs keys en conversaciones
+- API keys en conversaciones
 
-### Sobre Confiabilidad
-🤖 **La IA no es perfecta:**
+### Sobre Confiabilidad 🤖
+**La IA no es perfecta:**
 - Genera código que no compila
 - Comete errores de lógica
 - Inventa APIs que no existen
@@ -299,50 +165,105 @@ Al completar esta guía serás capaz de:
 
 ---
 
-## 🆘 ¿Necesitas Ayuda?
-
-- **Dudas sobre conceptos:** Revisa el [Glosario](./glosario.md)
-- **No funciona algo:** Vuelve al nivel anterior
-- **Feedback/sugerencias:** [Abre un issue o PR]
-
----
-
 ## 📊 Estado de la Guía
 
-| Sección | Estado | Última actualización |
+| Sección | Estado | Última Actualización |
 |---------|--------|---------------------|
-| Glosario | ✅ Completo | 2025-10-01 |
-| Nivel 1 | ✅ Completo | 2025-10-01 |
-| Nivel 2 | ✅ Completo | 2025-10-01 |
-| Nivel 3 | 📝 Planeado | - |
-| Nivel 4 | 📝 Planeado | - |
-| Nivel 5 | 📝 Planeado | - |
-| Nivel 6 | 📝 Planeado | - |
+| Conceptos (01-11) | ✅ Completo | 2025-01 |
+| Nivel 1 | ✅ Completo | 2025-01 |
+| Nivel 2 | ✅ Completo | 2025-01 |
+| Cheat Sheet | ✅ Completo | 2025-01 |
 
 ---
 
 ## 🚀 Empezar Ahora
 
-**Ruta sugerida:**
+### Para Principiantes Completos:
+1. **[Lee Conceptos 01-05](./conceptos/01-llm.md)** (30 min)
+2. **[Practica Nivel 1](./guia-practica/nivel-1-chat-basico.md)** (2-3 días)
+3. **[Continúa con Nivel 2](./guia-practica/nivel-2-chat-avanzado.md)** (1 semana)
 
-1. **[Lee el Glosario](./glosario.md)** (5 minutos)
-   - Familiarízate con términos clave
+### Para Usuarios Con Experiencia:
+1. **[Revisa el Cheat Sheet](./cheat-sheet.md)** (10 min)
+2. **[Profundiza en Conceptos](./conceptos/)** según necesites
+3. **[Técnicas Avanzadas en Nivel 2](./guia-practica/nivel-2-chat-avanzado.md)**
 
-2. **[Comienza Nivel 1: Chat Básico](./nivel-1-chat-basico.md)** (2-3 días)
-   - Practica prompts efectivos
-   - Genera tu primer código útil
-   - Aprende a iterar y refinar
-
-3. **Domina Nivel 1 antes de continuar**
-   - Usa el checklist al final del nivel
-   - No avances hasta sentirte cómodo
-
-4. **Sigue al siguiente nivel** (cuando esté disponible)
+### Para Referencia Rápida:
+→ **[Cheat Sheet](./cheat-sheet.md)** - Guarda para consulta diaria
 
 ---
 
-**¿Listo para empezar?** → [Glosario](./glosario.md) → [Nivel 1: Chat Básico](./nivel-1-chat-basico.md)
+## 💡 Filosofía de la Guía
+
+### Principios:
+
+**1. Claridad sobre cantidad**
+- Directo al grano
+- Sin relleno innecesario
+- Ejemplos prácticos reales
+
+**2. Teoría + Práctica**
+- **Conceptos:** Entiende el "por qué"
+- **Guía Práctica:** Aplica el "cómo"
+- **Cheat Sheet:** Consulta rápida
+
+**3. Progresión natural**
+- De lo simple a lo complejo
+- Cada nivel construye sobre el anterior
+- No saltes pasos
+
+**4. Universal pero específico**
+- Principios aplicables a cualquier rol
+- Ejemplos específicos para dev/design
+- Adaptas a tu contexto
+
+**5. Práctica sobre teoría**
+- Enfocado en casos de uso reales
+- Menos conceptos, más aplicación
+- Tips del mundo real
 
 ---
 
-*Guía creada para el equipo RUDO - Actualizada continuamente*
+## 🆘 ¿Necesitas Ayuda?
+
+- **Dudas sobre conceptos:** Consulta [/conceptos](./conceptos/)
+- **Cómo hacer algo:** Revisa [/guia-practica](./guia-practica/)
+- **Referencia rápida:** Usa [Cheat Sheet](./cheat-sheet.md)
+- **No funciona algo:** Vuelve al nivel anterior
+- **Feedback/sugerencias:** Abre un issue
+
+---
+
+## 📖 Índice Completo
+
+### Conceptos
+1. [LLM](./conceptos/01-llm.md) - Qué es y cómo funciona
+2. [Modelo](./conceptos/02-modelo.md) - Elegir el correcto
+3. [Token](./conceptos/03-token.md) - Costes y límites
+4. [Contexto](./conceptos/04-contexto.md) - Información efectiva
+5. [Prompt](./conceptos/05-prompt.md) - Instrucciones claras
+6. [Temperatura](./conceptos/06-temperatura.md) - Control de creatividad
+7. [Herramienta](./conceptos/07-herramienta.md) - Capacidades extendidas
+8. [Agente](./conceptos/08-agente.md) - IA autónoma
+9. [Alucinación](./conceptos/09-alucinacion.md) - Detectar errores
+10. [Fine-tuning](./conceptos/10-fine-tuning.md) - IA personalizada
+11. [Entrenamiento](./conceptos/11-entrenamiento.md) - Cómo aprende
+
+### Guía Práctica
+- [Nivel 1: Chat Básico](./guia-practica/nivel-1-chat-basico.md)
+- [Nivel 2: Chat Avanzado](./guia-practica/nivel-2-chat-avanzado.md)
+
+### Referencia
+- [Cheat Sheet](./cheat-sheet.md)
+
+---
+
+**¿Listo para empezar?**
+
+→ **Principiantes:** [Conceptos: LLM](./conceptos/01-llm.md)
+→ **Prácticos:** [Nivel 1: Chat Básico](./guia-practica/nivel-1-chat-basico.md)
+→ **Experimentados:** [Cheat Sheet](./cheat-sheet.md)
+
+---
+
+*Guía creada para el equipo RUDO - Actualizada Enero 2025*

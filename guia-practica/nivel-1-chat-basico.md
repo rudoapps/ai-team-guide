@@ -485,4 +485,4 @@ Aprenderás:
 
 ---
 
-[← Glosario](./glosario.md) | [Inicio](./README.md) | [Siguiente: Nivel 2 →](./nivel-2-chat-avanzado.md)
+[← Volver a Inicio](../README.md) | [Conceptos](../README.md#conceptos) | [Siguiente: Nivel 2 →](./nivel-2-chat-avanzado.md)

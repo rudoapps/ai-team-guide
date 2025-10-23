@@ -685,4 +685,4 @@ Aprenderás:
 
 ---
 
-[← Anterior: Nivel 1](./nivel-1-chat-basico.md) | [Inicio](./README.md) | [Siguiente: Nivel 3 →](./nivel-3-editor.md)
+[← Anterior: Nivel 1](./nivel-1-chat-basico.md) | [Volver a Inicio](../README.md) | [Conceptos](../README.md#conceptos)
