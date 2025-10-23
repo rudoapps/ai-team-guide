@@ -647,7 +647,7 @@ Solo después de esto, muestra implementación."
 - ❌ Ejecutar código automáticamente
 - ❌ IA que navegue tu codebase autónomamente
 
-**Para eso necesitas:** [Nivel 3: IA en tu Editor](./nivel-3-editor.md)
+**Para eso necesitas:** Nivel 3: IA en tu Editor *(próximamente)*
 
 ---
 
@@ -673,9 +673,9 @@ Solo después de esto, muestra implementación."
 
 ## 🎯 Próximo Paso
 
-**Cuando domines este nivel**, avanza a:
+**Cuando domines este nivel**, el siguiente paso será:
 
-→ [Nivel 3: IA en tu Editor](./nivel-3-editor.md)
+→ **Nivel 3: IA en tu Editor** *(próximamente)*
 
 Aprenderás:
 - Autocompletado inteligente mientras codeas
