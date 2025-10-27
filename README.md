@@ -1,4 +1,4 @@
-# Guía de IA para el Equipo RUDO
+# Guía de IA para el Equipo Lãberit
 
 Guía completa para desarrolladores, diseñadores y gestión sobre cómo usar IA efectivamente en el trabajo diario.
 
@@ -175,4 +175,4 @@ Los principios de uso efectivo de IA aplican independientemente de tu rol.
 
 ---
 
-*Guía creada para el equipo de Lãberit - Actualizada Enero 2025*
+*Guía creada para el equipo de Lãberit - Actualizada Octubre 2025*
