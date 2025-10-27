@@ -28,6 +28,8 @@ Antes de empezar, familiarízate con estos términos. Los encontrarás en toda l
 
 **Analogía:** Es como un compañero que leyó toda la documentación de todos los lenguajes de programación y puede ayudarte a escribir código.
 
+[**→ Ver más sobre LLM en profundidad**](./conceptos/01-llm.md)
+
 ---
 
 ## 💭 Prompt
@@ -52,6 +54,8 @@ Crea una función de login en JavaScript que:
 
 **Regla de oro:** Mientras más claro seas, mejores resultados obtienes.
 
+[**→ Ver más sobre Prompts en profundidad**](./conceptos/05-prompt.md)
+
 ---
 
 ## 🎯 Contexto
@@ -72,6 +76,8 @@ en cada render y causa lag. ¿Cómo puedo optimizarla?
 ```
 
 **Por qué importa:** Es la diferencia entre preguntarle a un extraño vs. a alguien que conoce tu proyecto.
+
+[**→ Ver más sobre Contexto en profundidad**](./conceptos/04-contexto.md)
 
 ---
 
@@ -114,6 +120,8 @@ IA: [versión final]
 - 1 token ≈ 0.75 palabras en español
 - 1 token ≈ 4 caracteres en código
 
+[**→ Ver más sobre Tokens en profundidad**](./conceptos/03-token.md)
+
 ---
 
 ## 🎲 Temperatura
@@ -135,6 +143,8 @@ IA: [versión final]
 - Ejemplo: Pedirle 10 nombres para una función
 
 > **Nota:** La mayoría de chats usan temperatura media por defecto.
+
+[**→ Ver más sobre Temperatura en profundidad**](./conceptos/06-temperatura.md)
 
 ---
 
@@ -161,6 +171,8 @@ Estos términos se confunden mucho. Aquí la diferencia:
 - **Asistente:** Consultor que responde preguntas
 - **Copiloto:** Compañero que te ayuda a escribir
 - **Agente:** Junior dev que completa tareas
+
+[**→ Ver más sobre Agentes en profundidad**](./conceptos/08-agente.md)
 
 ---
 
@@ -189,7 +201,7 @@ IA: [lee el archivo directamente y encuentra el bug]
 
 **Analogía:** Es como darle a la IA acceso a las mismas herramientas que tú usas.
 
-> Lo veremos en detalle en el [Nivel 6](./nivel-6-mcp.md)
+[**→ Ver más sobre MCP en profundidad**](./conceptos/12-mcp.md)
 
 ---
 
@@ -223,11 +235,15 @@ Dos formas de "enseñarle" a la IA sobre tu proyecto específico.
 **Contras:** Caro, requiere muchos datos, técnico
 **Ejemplo:** Entrenar un modelo solo para tu empresa
 
+[**→ Ver más sobre Fine-tuning en profundidad**](./conceptos/10-fine-tuning.md)
+
 ### RAG (Retrieval-Augmented Generation)
 **Qué es:** La IA busca información relevante antes de responder.
 **Pros:** Más barato, más fácil, más flexible
 **Contras:** Menos preciso que fine-tuning
 **Ejemplo:** La IA busca en tu documentación antes de responder
+
+[**→ Ver más sobre RAG en profundidad**](./conceptos/13-rag.md)
 
 > Para la mayoría de casos, RAG es suficiente.
 
@@ -289,10 +305,10 @@ Asegúrate de entender estos antes de continuar:
 - [ ] Entiendo la diferencia entre Asistente, Copiloto y Agente
 - [ ] Tengo una idea básica de qué es MCP
 
-**Si marcaste todos,** estás listo para → [Nivel 1: Chat Básico](./nivel-1-chat-basico.md)
+**Si marcaste todos,** estás listo para → [Nivel 1: Chat Básico](./guia-practica/nivel-1-chat-basico.md)
 
 **Si tienes dudas,** vuelve a leer las secciones que no quedaron claras.
 
 ---
 
-[← Volver al inicio](./README.md) | [Siguiente: Nivel 1 →](./nivel-1-chat-basico.md)
+[← Volver al inicio](./README.md) | [Siguiente: Nivel 1 →](./guia-practica/nivel-1-chat-basico.md)
