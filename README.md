@@ -18,7 +18,7 @@ La IA es una herramienta poderosa, pero la mayoría la usa mal:
 
 ## 📚 Estructura de la Guía
 
-La guía está organizada en tres pilares complementarios:
+La guía está organizada en dos pilares complementarios:
 
 ### 1️⃣ **[Glosario](./glosario.md)** - Fundamentos Teóricos
 Entiende **cómo funciona** la IA y **por qué** se comporta como lo hace.
@@ -35,24 +35,10 @@ Entiende **cómo funciona** la IA y **por qué** se comporta como lo hace.
 - [09. Alucinación](./conceptos/09-alucinacion.md) - Detectar errores (CRÍTICO)
 - [10. Fine-tuning](./conceptos/10-fine-tuning.md) - IA personalizada
 - [11. Entrenamiento](./conceptos/11-entrenamiento.md) - Cómo aprende la IA
+- [12. Model Context Protocol (MCP)](./conceptos/12-mcp.md) - Integración avanzada
+- [13. Retrieval Augmented Generation (RAG)](./conceptos/13-rag.md) - IA con conocimiento específico
 
-### 2️⃣ **[Guía Práctica](./guia-practica/)** - Aplicación Real
-Aplica los conceptos en **tu trabajo diario** con técnicas progresivas.
-
-**Niveles disponibles:**
-- **[Nivel 1: Chat Básico](./guia-practica/nivel-1-chat-basico.md)** ✅ *Disponible*
-  - Prompts efectivos
-  - Ciclo: prompt → código → prueba → refina
-  - Detectar errores comunes
-  - Seguridad al copiar/pegar
-
-- **[Nivel 2: Chat Avanzado](./guia-practica/nivel-2-chat-avanzado.md)** ✅ *Disponible*
-  - Conversaciones largas con contexto
-  - Técnicas: Chain-of-Thought, Few-Shot, Role Prompting
-  - Refactoring de proyectos completos
-  - Code review colaborativo
-
-### 3️⃣ **[Cheat Sheet](./cheat-sheet.md)** - Referencia Rápida
+### 2️⃣ **[Cheat Sheet](./cheat-sheet.md)** - Referencia Rápida
 Consulta rápida de conceptos, técnicas y mejores prácticas.
 
 ---
@@ -70,7 +56,7 @@ Los principios de uso efectivo de IA aplican independientemente de tu rol.
 
 ## 🛠️ Herramientas Cubiertas
 
-### Chat (Nivel 1-2)
+### Chat
 - **ChatGPT** (OpenAI) - Propósito general
 - **Claude** (Anthropic) - Análisis profundo, contexto largo
 - **Gemini** (Google) - Integración Google Workspace
@@ -111,12 +97,10 @@ Los principios de uso efectivo de IA aplican independientemente de tu rol.
 
 ## 📊 Estado de la Guía
 
-| Sección | Estado | Última Actualización |
-|---------|--------|---------------------|
-| Conceptos (01-11) | ✅ Completo | 2025-01 |
-| Nivel 1 | ✅ Completo | 2025-01 |
-| Nivel 2 | ✅ Completo | 2025-01 |
-| Cheat Sheet | ✅ Completo | 2025-01 |
+| Sección           | Estado | Última Actualización |
+|-------------------|--------|----------------------|
+| Conceptos (01-13) | ✅ Completo | 2025-10              |
+| Cheat Sheet       | ✅ Completo | 2025-10              |
 
 ---
 
@@ -124,13 +108,10 @@ Los principios de uso efectivo de IA aplican independientemente de tu rol.
 
 ### Para Principiantes Completos:
 1. **[Lee Conceptos 01-05](./conceptos/01-llm.md)** (30 min)
-2. **[Practica Nivel 1](./guia-practica/nivel-1-chat-basico.md)** (2-3 días)
-3. **[Continúa con Nivel 2](./guia-practica/nivel-2-chat-avanzado.md)** (1 semana)
 
 ### Para Usuarios Con Experiencia:
 1. **[Revisa el Cheat Sheet](./cheat-sheet.md)** (10 min)
 2. **[Profundiza en Conceptos](./conceptos/)** según necesites
-3. **[Técnicas Avanzadas en Nivel 2](./guia-practica/nivel-2-chat-avanzado.md)**
 
 ### Para Referencia Rápida:
 → **[Cheat Sheet](./cheat-sheet.md)** - Guarda para consulta diaria
@@ -171,7 +152,6 @@ Los principios de uso efectivo de IA aplican independientemente de tu rol.
 ## 🆘 ¿Necesitas Ayuda?
 
 - **Vista general de conceptos:** Acude al [glosario](./glosario.md)
-- **Cómo hacer algo:** Acude a [/guia-practica](./guia-practica/)
 - **Referencia rápida:** Usa [Cheat Sheet](./cheat-sheet.md)
 - **No funciona algo:** Vuelve al nivel anterior
 - **Feedback/sugerencias:** Abre un issue
@@ -183,10 +163,6 @@ Los principios de uso efectivo de IA aplican independientemente de tu rol.
 ### Glosario
 - [Glosario Completo](./glosario.md)
 
-### Guía Práctica
-- [Nivel 1: Chat Básico](./guia-practica/nivel-1-chat-basico.md)
-- [Nivel 2: Chat Avanzado](./guia-practica/nivel-2-chat-avanzado.md)
-
 ### Referencia
 - [Cheat Sheet](./cheat-sheet.md)
 
@@ -195,7 +171,6 @@ Los principios de uso efectivo de IA aplican independientemente de tu rol.
 **¿Listo para empezar?**
 
 → **Principiantes:** [Conceptos: LLM](./conceptos/01-llm.md)
-→ **Prácticos:** [Nivel 1: Chat Básico](./guia-practica/nivel-1-chat-basico.md)
 → **Experimentados:** [Cheat Sheet](./cheat-sheet.md)
 
 ---

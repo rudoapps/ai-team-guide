@@ -18,6 +18,8 @@
 | **[Agente](./conceptos/08-agente.md)** | IA que ejecuta tareas autónomamente | Tareas complejas multi-paso |
 | **[Alucinación](./conceptos/09-alucinacion.md)** | IA inventa información falsa | Verificar salidas críticas |
 | **[Fine-tuning](./conceptos/10-fine-tuning.md)** | Especializar IA con tus datos | IA personalizada |
+| **[MCP](./conceptos/12-mcp.md)** | Protocolo para conectar IA con datos | Integrar sistemas/contexto |
+| **[RAG](./conceptos/13-rag.md)** | Enriquecer respuestas con documentos | IA con datos actualizados |
 
 ---
 
@@ -272,9 +274,6 @@ Explica complejidad antes y después.
 ## 📞 Obtener Más Ayuda
 
 1. **Conceptos**: Consulta [/conceptos](./conceptos/) para entender a fondo
-2. **Guía práctica**: Revisa [/guia-practica](./guia-practica/) para técnicas avanzadas
-3. **Nivel 1**: [Chat Básico](./guia-practica/nivel-1-chat-basico.md)
-4. **Nivel 2**: [Chat Avanzado](./guia-practica/nivel-2-chat-avanzado.md)
 
 ---
 
